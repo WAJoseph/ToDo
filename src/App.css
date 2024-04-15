@@ -1,0 +1,80 @@
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 400px;
+  border-radius: 0.7rem;
+  background-color: #1D1825;
+}
+
+.todo-list {
+  background-color: #15101C;
+  border-radius: 0.6rem;
+  padding: 1rem;
+  width: 80%;
+  color: white;
+}
+
+.title {
+  color: #9E78CF;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  background-color: #15101C;
+  border-radius: 0.25rem;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  color: white;
+  align-items: center;
+}
+
+.todo-item * {
+  margin: 3px;
+  padding: 2px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  background-color: #15101C;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+.add-task {
+  display: flex;
+  flex-direction: row;
+}
+
+button {
+  background-color: #8E6CBA;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  margin-left: 10px;
+}
+
+button:hover {
+  background-color: #8968C6;
+}
+
+button:disabled {
+  background-color: #52E058;
+  color: white;
+  cursor: not-allowed;
+}
